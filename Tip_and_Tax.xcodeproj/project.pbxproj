@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8D9A452A8FEFAF00D34FA9 /* Tip_and_TaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D9A442A8FEFAF00D34FA9 /* Tip_and_TaxApp.swift */; };
+		FF8D9A472A8FEFAF00D34FA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D9A462A8FEFAF00D34FA9 /* ContentView.swift */; };
+		FF8D9A492A8FEFAF00D34FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8D9A482A8FEFAF00D34FA9 /* Assets.xcassets */; };
+		FF8D9A4C2A8FEFAF00D34FA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8D9A4B2A8FEFAF00D34FA9 /* Preview Assets.xcassets */; };
+		FF8D9A562A8FEFAF00D34FA9 /* Tip_and_TaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D9A552A8FEFAF00D34FA9 /* Tip_and_TaxTests.swift */; };
+		FF8D9A602A8FEFAF00D34FA9 /* Tip_and_TaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D9A5F2A8FEFAF00D34FA9 /* Tip_and_TaxUITests.swift */; };
+		FF8D9A622A8FEFAF00D34FA9 /* Tip_and_TaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D9A612A8FEFAF00D34FA9 /* Tip_and_TaxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8D9A522A8FEFAF00D34FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D9A392A8FEFAF00D34FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8D9A402A8FEFAF00D34FA9;
+			remoteInfo = Tip_and_Tax;
+		};
+		FF8D9A5C2A8FEFAF00D34FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D9A392A8FEFAF00D34FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8D9A402A8FEFAF00D34FA9;
+			remoteInfo = Tip_and_Tax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8D9A412A8FEFAF00D34FA9 /* Tip_and_Tax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip_and_Tax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8D9A442A8FEFAF00D34FA9 /* Tip_and_TaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_and_TaxApp.swift; sourceTree = "<group>"; };
+		FF8D9A462A8FEFAF00D34FA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF8D9A482A8FEFAF00D34FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8D9A4B2A8FEFAF00D34FA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF8D9A512A8FEFAF00D34FA9 /* Tip_and_TaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_and_TaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8D9A552A8FEFAF00D34FA9 /* Tip_and_TaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_and_TaxTests.swift; sourceTree = "<group>"; };
+		FF8D9A5B2A8FEFAF00D34FA9 /* Tip_and_TaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_and_TaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8D9A5F2A8FEFAF00D34FA9 /* Tip_and_TaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_and_TaxUITests.swift; sourceTree = "<group>"; };
+		FF8D9A612A8FEFAF00D34FA9 /* Tip_and_TaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_and_TaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8D9A3E2A8FEFAF00D34FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D9A4E2A8FEFAF00D34FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D9A582A8FEFAF00D34FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8D9A382A8FEFAF00D34FA9 = {
+			isa = PBXGroup;
+			children = (
+				FF8D9A432A8FEFAF00D34FA9 /* Tip_and_Tax */,
+				FF8D9A542A8FEFAF00D34FA9 /* Tip_and_TaxTests */,
+				FF8D9A5E2A8FEFAF00D34FA9 /* Tip_and_TaxUITests */,
+				FF8D9A422A8FEFAF00D34FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8D9A422A8FEFAF00D34FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D9A412A8FEFAF00D34FA9 /* Tip_and_Tax.app */,
+				FF8D9A512A8FEFAF00D34FA9 /* Tip_and_TaxTests.xctest */,
+				FF8D9A5B2A8FEFAF00D34FA9 /* Tip_and_TaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8D9A432A8FEFAF00D34FA9 /* Tip_and_Tax */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D9A442A8FEFAF00D34FA9 /* Tip_and_TaxApp.swift */,
+				FF8D9A462A8FEFAF00D34FA9 /* ContentView.swift */,
+				FF8D9A482A8FEFAF00D34FA9 /* Assets.xcassets */,
+				FF8D9A4A2A8FEFAF00D34FA9 /* Preview Content */,
+			);
+			path = Tip_and_Tax;
+			sourceTree = "<group>";
+		};
+		FF8D9A4A2A8FEFAF00D34FA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D9A4B2A8FEFAF00D34FA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF8D9A542A8FEFAF00D34FA9 /* Tip_and_TaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D9A552A8FEFAF00D34FA9 /* Tip_and_TaxTests.swift */,
+			);
+			path = Tip_and_TaxTests;
+			sourceTree = "<group>";
+		};
+		FF8D9A5E2A8FEFAF00D34FA9 /* Tip_and_TaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D9A5F2A8FEFAF00D34FA9 /* Tip_and_TaxUITests.swift */,
+				FF8D9A612A8FEFAF00D34FA9 /* Tip_and_TaxUITestsLaunchTests.swift */,
+			);
+			path = Tip_and_TaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8D9A402A8FEFAF00D34FA9 /* Tip_and_Tax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8D9A652A8FEFAF00D34FA9 /* Build configuration list for PBXNativeTarget "Tip_and_Tax" */;
+			buildPhases = (
+				FF8D9A3D2A8FEFAF00D34FA9 /* Sources */,
+				FF8D9A3E2A8FEFAF00D34FA9 /* Frameworks */,
+				FF8D9A3F2A8FEFAF00D34FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tip_and_Tax;
+			productName = Tip_and_Tax;
+			productReference = FF8D9A412A8FEFAF00D34FA9 /* Tip_and_Tax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8D9A502A8FEFAF00D34FA9 /* Tip_and_TaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8D9A682A8FEFAF00D34FA9 /* Build configuration list for PBXNativeTarget "Tip_and_TaxTests" */;
+			buildPhases = (
+				FF8D9A4D2A8FEFAF00D34FA9 /* Sources */,
+				FF8D9A4E2A8FEFAF00D34FA9 /* Frameworks */,
+				FF8D9A4F2A8FEFAF00D34FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8D9A532A8FEFAF00D34FA9 /* PBXTargetDependency */,
+			);
+			name = Tip_and_TaxTests;
+			productName = Tip_and_TaxTests;
+			productReference = FF8D9A512A8FEFAF00D34FA9 /* Tip_and_TaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8D9A5A2A8FEFAF00D34FA9 /* Tip_and_TaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8D9A6B2A8FEFAF00D34FA9 /* Build configuration list for PBXNativeTarget "Tip_and_TaxUITests" */;
+			buildPhases = (
+				FF8D9A572A8FEFAF00D34FA9 /* Sources */,
+				FF8D9A582A8FEFAF00D34FA9 /* Frameworks */,
+				FF8D9A592A8FEFAF00D34FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8D9A5D2A8FEFAF00D34FA9 /* PBXTargetDependency */,
+			);
+			name = Tip_and_TaxUITests;
+			productName = Tip_and_TaxUITests;
+			productReference = FF8D9A5B2A8FEFAF00D34FA9 /* Tip_and_TaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8D9A392A8FEFAF00D34FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF8D9A402A8FEFAF00D34FA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FF8D9A502A8FEFAF00D34FA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF8D9A402A8FEFAF00D34FA9;
+					};
+					FF8D9A5A2A8FEFAF00D34FA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF8D9A402A8FEFAF00D34FA9;
+					};
+				};
+			};
+			buildConfigurationList = FF8D9A3C2A8FEFAF00D34FA9 /* Build configuration list for PBXProject "Tip_and_Tax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8D9A382A8FEFAF00D34FA9;
+			productRefGroup = FF8D9A422A8FEFAF00D34FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8D9A402A8FEFAF00D34FA9 /* Tip_and_Tax */,
+				FF8D9A502A8FEFAF00D34FA9 /* Tip_and_TaxTests */,
+				FF8D9A5A2A8FEFAF00D34FA9 /* Tip_and_TaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8D9A3F2A8FEFAF00D34FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8D9A4C2A8FEFAF00D34FA9 /* Preview Assets.xcassets in Resources */,
+				FF8D9A492A8FEFAF00D34FA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D9A4F2A8FEFAF00D34FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D9A592A8FEFAF00D34FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8D9A3D2A8FEFAF00D34FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8D9A472A8FEFAF00D34FA9 /* ContentView.swift in Sources */,
+				FF8D9A452A8FEFAF00D34FA9 /* Tip_and_TaxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D9A4D2A8FEFAF00D34FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8D9A562A8FEFAF00D34FA9 /* Tip_and_TaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D9A572A8FEFAF00D34FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8D9A622A8FEFAF00D34FA9 /* Tip_and_TaxUITestsLaunchTests.swift in Sources */,
+				FF8D9A602A8FEFAF00D34FA9 /* Tip_and_TaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8D9A532A8FEFAF00D34FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8D9A402A8FEFAF00D34FA9 /* Tip_and_Tax */;
+			targetProxy = FF8D9A522A8FEFAF00D34FA9 /* PBXContainerItemProxy */;
+		};
+		FF8D9A5D2A8FEFAF00D34FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8D9A402A8FEFAF00D34FA9 /* Tip_and_Tax */;
+			targetProxy = FF8D9A5C2A8FEFAF00D34FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF8D9A632A8FEFAF00D34FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF8D9A642A8FEFAF00D34FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8D9A662A8FEFAF00D34FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tip_and_Tax/Preview Content\"";
+				DEVELOPMENT_TEAM = 35VK26J7L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry.Tip-and-Tax.Tip-and-Tax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8D9A672A8FEFAF00D34FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tip_and_Tax/Preview Content\"";
+				DEVELOPMENT_TEAM = 35VK26J7L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry.Tip-and-Tax.Tip-and-Tax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF8D9A692A8FEFAF00D34FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VK26J7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry.Tip-and-Tax.Tip-and-TaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip_and_Tax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tip_and_Tax";
+			};
+			name = Debug;
+		};
+		FF8D9A6A2A8FEFAF00D34FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VK26J7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry.Tip-and-Tax.Tip-and-TaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip_and_Tax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tip_and_Tax";
+			};
+			name = Release;
+		};
+		FF8D9A6C2A8FEFAF00D34FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VK26J7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry.Tip-and-Tax.Tip-and-TaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tip_and_Tax;
+			};
+			name = Debug;
+		};
+		FF8D9A6D2A8FEFAF00D34FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VK26J7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry.Tip-and-Tax.Tip-and-TaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tip_and_Tax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8D9A3C2A8FEFAF00D34FA9 /* Build configuration list for PBXProject "Tip_and_Tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8D9A632A8FEFAF00D34FA9 /* Debug */,
+				FF8D9A642A8FEFAF00D34FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8D9A652A8FEFAF00D34FA9 /* Build configuration list for PBXNativeTarget "Tip_and_Tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8D9A662A8FEFAF00D34FA9 /* Debug */,
+				FF8D9A672A8FEFAF00D34FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8D9A682A8FEFAF00D34FA9 /* Build configuration list for PBXNativeTarget "Tip_and_TaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8D9A692A8FEFAF00D34FA9 /* Debug */,
+				FF8D9A6A2A8FEFAF00D34FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8D9A6B2A8FEFAF00D34FA9 /* Build configuration list for PBXNativeTarget "Tip_and_TaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8D9A6C2A8FEFAF00D34FA9 /* Debug */,
+				FF8D9A6D2A8FEFAF00D34FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8D9A392A8FEFAF00D34FA9 /* Project object */;
+}
